@@ -106,7 +106,7 @@ footer i.fab:hover {
 body {
   padding: 40px;
   background-color: #674bb1;
-  background-image: url("../images/bg-mobile.svg");
+  background-image: url("/images/bg-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -116,7 +116,7 @@ body {
 @media screen and (min-width: 1024px) {
   body {
     padding: 60px 80px 40px 80px;
-    background-image: url("../images/bg-desktop.svg");
+    background-image: url("/images/bg-desktop.svg");
     background-size: contain;
     background-position: left bottom;
   }
@@ -191,7 +191,9 @@ a.cta {
   -webkit-transition: -webkit-transform 100ms ease-in-out;
   transition: -webkit-transform 100ms ease-in-out;
   transition: transform 100ms ease-in-out;
-  transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
+  transition: transform 100ms easegit remote add origin https://github.com/ameyadeokule/huddle-singlepage.git
+  git branch -M main
+  git push -u origin main-in-out, -webkit-transform 100ms ease-in-out;
 }
 
 @media screen and (min-width: 1024px) {
